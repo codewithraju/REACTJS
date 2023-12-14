@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Myraju from './About';
-import "./style.css"
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
+import "./style.css";
+import Mybootrap  from './Mybootstrap';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    <Myraju></Myraju>
+   <Mybootrap></Mybootrap>
   </React.StrictMode>
 );
 
